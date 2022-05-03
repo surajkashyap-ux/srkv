@@ -9,7 +9,7 @@ import {
 } from "react-icons/fa";
 
 const headerData = {
-  name: "Bako Doe",
+  name: "Suraj Kashyap Vemuganti",
   designation: "Web Developer",
   imageThumb: "/images/logo.png",
   social: {
@@ -82,11 +82,6 @@ function Header({ toggleHeader, toggleHandler }) {
                 </Link>
               </li>
               <li>
-                <Link to="/services">
-                  <i className="icon-bulb"></i>Services
-                </Link>
-              </li>
-              <li>
                 <Link to="/resume">
                   <i className="icon-graduation"></i>Resume
                 </Link>
@@ -118,27 +113,6 @@ function Header({ toggleHeader, toggleHandler }) {
                   </a>
                 </li>
               )}
-              {!headerData.social.twitter ? null : (
-                <li className="list-inline-item">
-                  <a href={headerData.social.twitter}>
-                    <FaTwitter />
-                  </a>
-                </li>
-              )}
-              {!headerData.social.instagram ? null : (
-                <li className="list-inline-item">
-                  <a href={headerData.social.instagram}>
-                    <FaInstagram />
-                  </a>
-                </li>
-              )}
-              {!headerData.social.youtue ? null : (
-                <li className="list-inline-item">
-                  <a href={headerData.social.youtue}>
-                    <FaYoutube />
-                  </a>
-                </li>
-              )}
               {!headerData.social.dribbble ? null : (
                 <li className="list-inline-item">
                   <a href={headerData.social.dribbble}>
@@ -149,7 +123,7 @@ function Header({ toggleHeader, toggleHandler }) {
             </ul>
 
             <span className="copyright">
-              &copy; {new Date().getFullYear()} Bako Template
+              &copy; {new Date().getFullYear()}
             </span>
           </div>
         </div>
