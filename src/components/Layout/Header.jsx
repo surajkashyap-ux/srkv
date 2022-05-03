@@ -119,24 +119,6 @@ function Header({ toggleHeader, toggleHandler }) {
                 {currentPath === "/" ? (
                   <ScrollLink
                     activeClass="active"
-                    to="section-services"
-                    spy={true}
-                    smooth={true}
-                    offset={-50}
-                    duration={500}
-                  >
-                    <i className="icon-bulb"></i>Services
-                  </ScrollLink>
-                ) : (
-                  <Link to="/">
-                    <i className="icon-bulb"></i>Services
-                  </Link>
-                )}
-              </li>
-              <li>
-                {currentPath === "/" ? (
-                  <ScrollLink
-                    activeClass="active"
                     to="section-experiences"
                     spy={true}
                     smooth={true}
@@ -214,27 +196,6 @@ function Header({ toggleHeader, toggleHandler }) {
                 <li className="list-inline-item">
                   <a href={headerData.social.facebook}>
                     <FaFacebookF />
-                  </a>
-                </li>
-              )}
-              {!headerData.social.twitter ? null : (
-                <li className="list-inline-item">
-                  <a href={headerData.social.twitter}>
-                    <FaTwitter />
-                  </a>
-                </li>
-              )}
-              {!headerData.social.instagram ? null : (
-                <li className="list-inline-item">
-                  <a href={headerData.social.instagram}>
-                    <FaInstagram />
-                  </a>
-                </li>
-              )}
-              {!headerData.social.youtue ? null : (
-                <li className="list-inline-item">
-                  <a href={headerData.social.youtue}>
-                    <FaYoutube />
                   </a>
                 </li>
               )}
