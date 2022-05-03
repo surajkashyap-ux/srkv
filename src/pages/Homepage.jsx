@@ -64,24 +64,6 @@ function Homepage() {
         </section>
       </Element>
 
-      <Element name="section-pricing">
-        <section className="shadow-blue white-bg padding">
-          <SectionHeading title="Pricing table" />
-          <PricingTable />
-        </section>
-      </Element>
-
-      <Element name="section-testimonials">
-        <section className="shadow-blue white-bg padding">
-          <SectionHeading title="Testimonials" />
-          <Testimonials />
-        </section>
-      </Element>
-
-      <Element name="section-clients">
-        <Clients />
-      </Element>
-
       <Element name="section-blogs">
         <section className="shadow-blue white-bg padding">
           <SectionHeading title="Recent posts" />
