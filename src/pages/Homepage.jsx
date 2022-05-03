@@ -37,7 +37,7 @@ function Homepage() {
 
       <Element name="section-services">
         <section className="shadow-blue white-bg padding">
-          <SectionHeading title="Services" />
+          <SectionHeading title="Specialties" />
           <Services />
         </section>
       </Element>
