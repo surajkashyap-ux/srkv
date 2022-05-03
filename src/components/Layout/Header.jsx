@@ -3,9 +3,7 @@ import { Link as ScrollLink } from "react-scroll";
 import { Link, useRouteMatch } from "react-router-dom";
 import {
   FaFacebookF,
-  FaTwitter,
-  FaInstagram,
-  FaYoutube,
+  FaGithub,
   FaDribbble,
 } from "react-icons/fa";
 
@@ -14,7 +12,7 @@ const headerData = {
   designation: "Web Developer",
   imageThumb: "/images/logo.png",
   social: {
-    facebook: "https://facebook.com",
+    github: "https://facebook.com",
     twitter: "https://twitter.com",
     instagram: "https://www.instagram.com/",
     youtue: "https://www.youtube.com/",
@@ -192,10 +190,10 @@ function Header({ toggleHeader, toggleHandler }) {
 
           <div className="footer mt-auto">
             <ul className="social-icons list-inline">
-              {!headerData.social.facebook ? null : (
+              {!headerData.social.github ? null : (
                 <li className="list-inline-item">
-                  <a href={headerData.social.facebook}>
-                    <FaFacebookF />
+                  <a href={headerData.social.github}>
+                    <FaGithub />
                   </a>
                 </li>
               )}
@@ -209,7 +207,7 @@ function Header({ toggleHeader, toggleHandler }) {
             </ul>
 
             <span className="copyright">
-              &copy; {new Date().getFullYear()} Bako Template
+              &copy; {new Date().getFullYear()} srkv.xyz
             </span>
           </div>
         </div>
