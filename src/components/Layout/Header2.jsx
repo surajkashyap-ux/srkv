@@ -9,7 +9,7 @@ import {
 } from "react-icons/fa";
 
 const headerData = {
-  name: "Suraj Kashyap Vemuganti",
+  name: "Suraj Vemuganti",
   designation: "Web Developer",
   imageThumb: "/images/logo.png",
   social: {
